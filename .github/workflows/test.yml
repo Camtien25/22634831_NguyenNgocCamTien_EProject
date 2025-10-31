@@ -34,7 +34,7 @@ jobs:
           cd auth
           npm test
 
-      # Chạy test cho product (sau khi auth đã start)
+      # Chạy test cho product(sau khi auth đã start)
       - name: Run tests for product
         run: |
           cd auth && npm start &
