@@ -45,6 +45,11 @@ class App {
       console.log("Server started on port 3001")
     );
   }
+  //   start() {
+  //   this.server = this.app.listen(config.port, () =>
+  //     console.log(`Server started on port ${config.port}`)
+  //   );
+  // }
 
   async stop() {
     await mongoose.disconnect();
